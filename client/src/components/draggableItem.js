@@ -54,8 +54,8 @@ export default class DraggableItem extends Component {
     const x = clientX - mouseX;
     const y = clientY - mouseY;
 
-    //console.log("this is X : ", x, "this is Y : ", y);
-    (x < -120 && x > -1000 && y > 10)
+    console.log("this is X : ", x, "this is Y : ", y);
+    (x < -170 && x > -1000 && y > 5)
       ? this.outOfSidebarZone = true
       : this.outOfSidebarZone = false;
 

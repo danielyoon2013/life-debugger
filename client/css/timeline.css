@@ -1,17 +1,12 @@
 body {
-  margin: 0;
-  padding: 0;
   font-family: sans-serif;
   background: #d4d4d4;
-  height: 100%;
-  color: #003642;
 }
 
 #root {
   z-index:1;
   position: fixed;
-  overflow-y: scroll;
-  height: 100%;
+  /* overflow-y: scroll; */
 }
 
 body, html, #root {
@@ -22,14 +17,21 @@ body, html, #root {
 }
 
 .quote {
+  position: absolute;
   font-family: 'Yantramanav', sans-serif;
   font-size: 26px;
+  top: 0%;
+  left: 6%;
+}
+
+.quote-container {
+  height: 57px;
 }
 
 .content {
   height: 100%;
   width: 100%;
-  overflow: auto;
+  /* overflow: auto; */
 }
 
 #sidebar {
@@ -91,7 +93,7 @@ body, html, #root {
 }
 
 .rct-scroll {
-  width: 1290px !important;
+  width: 1450px !important;
 }
 
 .trash {
@@ -139,9 +141,9 @@ body, html, #root {
 }
 
 .SSreggi {
-  position: relative;
+  position: absolute;
   z-index: 900;
-  top: 55%;
+  top: 70%;
   left: 12%;
   background: #e4e4e5;
   height: 170px;
