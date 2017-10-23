@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
 
-const mongoUri = 'mongodb://ec2-13-124-163-154.ap-northeast-2.compute.amazonaws.com/lifedebugger';
+const mongoUri = 'mongodb://**************.ap-northeast-2.compute.amazonaws.com/lifedebugger';
 
 
 const db = mongoose.connection;
